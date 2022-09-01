@@ -1,0 +1,153 @@
+body{
+    padding: 0,2%;
+    text-align: center;
+}
+.list-item{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-family: "Orbitron";
+    font-weight: 700;
+    padding: 0 4%;
+    font-size: 1.2rem;
+}
+
+.list-item:hover{
+    font-size: 1.8rem;;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 6px;
+    
+
+}
+img{
+    display: inline;
+    position:relative;
+}
+.list{
+    position: relative;
+    left:50px;
+    text-align: center;
+}
+
+.navbar-container{
+    padding: 3% 0%;
+    display: grid;
+    grid-template-columns: 20% 50% 25%;
+    padding-bottom: 5%;
+}
+.button-group{
+    width: 200px !important;
+    position: relative;
+    left:40%;
+    display: grid;
+    grid-template-columns: 0.15fr 0.2fr;
+}
+
+.search-icon{
+    width: 2px;
+    position:relative;
+    top:8px;
+    right: 20px;;
+}
+.nav-button{
+    width:200px;
+    border-spacing: 20px;
+    border-radius: 12px;
+    padding: 4% 6%;
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    background-color: white;
+    border-width: 3px;
+    position: relative;
+    left:30px;
+    
+
+}
+
+.square{
+    position:absolute;
+    top:59%;
+    left:16.6%
+
+
+}
+.star{
+    width:150px;
+    position:absolute;
+    left:1200px;
+    top:240px;
+    
+}
+
+.globe{
+    width:80%;
+    position:absolute;
+    left:250px;
+    top:170px;
+    
+    
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0% 5%;
+    
+    
+
+}
+
+.hero-heading{
+    padding-top: 8%;
+    padding-left: 5%;
+    font-family: "Orbitron";
+    font-weight: 800;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.hero-description{
+    font-family: "Poppins";
+    text-align: center;
+    padding:0 22%;
+}
+
+.button-email{
+    border-spacing: 20px;
+    border-radius: 10px;
+    padding: 0.3% 3%;
+    font-family: "Orbitron";
+    font-size: 1.4rem;
+    margin-top:6%;
+}
+
+
+.button-join{
+    background-color: black;
+    color: aliceblue;
+    border-spacing: 20px;
+    border-radius: 10px;
+    padding: 0.3% 1%;
+    font-family: "Orbitron";
+    font-size: 1.4rem;
+    margin:6% 2%;
+}
+div{
+    text-align: center;
+}
+
+.contact-heading{
+    padding-top: 4%;
+    font-family: "Poppins";
+    font-weight: 400;
+    color:rgb(50, 54, 57);
+    font-size: 1.4rem;
+}
+
+.icons{
+    padding: 0% 1.7%;
+}
+
+span{
+    padding: 0% 0.5%;
+}
